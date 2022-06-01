@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 1px solid black;
+}
+.main{
+    height: 400vh;
+}
+.head{
+    height: 70px;
+}
+.body{
+    display: flex;
+    height: 150vh;
+    margin-left: 40px;
+}
+.column-left{
+    height: 500px;
+    width: 30%;
+}
+.first{
+    margin-bottom: 20px;
+}
+.list{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    padding: 8px 50px;
+    border-radius: 10px;
+    margin-top: 20px;
+    color: black;
+}
+.list-of-information{
+    height: 30px;
+    width: 300px
+}
+.horizon{
+    margin-left: 30px;
+    height: 600px;
+    border: 0.05px solid rgba(0, 0, 0, 0.1);
+}
+.column-right{
+    height: 500px;
+    width: 60%;
+    float: right;
+    margin-left: 25px;
+}
+.list-of-information, .column-left, .first, h1, .body {
+    border: none;
+}
