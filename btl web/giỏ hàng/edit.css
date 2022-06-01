@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 1px solid black;
+}
+
+.main {
+    height: 500vh;
+}
+
+.header {
+    height: 80px;
+}
+
+.body {
+    padding: 0px 50px;
+}
+
+.image img {
+    height: 450px;
+    width: 450px;
+}
+
+.image {
+    display: flex;
+}
+
+.sub-img img {
+    height: 82px;
+    width: 82px;
+    margin-top: 10px;
+    margin-left: 3px;
+}
+
+.thong-tin {
+    float: right;
+    margin-left: 100px;
+}
